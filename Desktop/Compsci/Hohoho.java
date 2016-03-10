@@ -2,14 +2,14 @@ import java.util.*;
 import java.lang.*;
 import java.io.*;
 
-public class HohohoBitches
+public class Hohoho
 {
 	public ArrayList<String> nicelist;
 	public HashMap<String, String> pair;
 	public String destinationname;
 	public ArrayList<Integer> added;
 	public HashMap<String, String> wishlists;
-	public HohohoBitches()
+	public Hohoho()
 	{
 		nicelist= new ArrayList<String>();
 		pair= new HashMap<String, String>();
@@ -73,7 +73,7 @@ public class HohohoBitches
 	}
 	public static void main(String[] args)
 	{
-		HohohoBitches santa= new HohohoBitches();
+		Hohoho santa= new Hohoho();
 		santa.makeList();
 		santa.makePairs();
 		File file= new File(santa.destinationname);
@@ -88,7 +88,7 @@ public class HohohoBitches
 			try{
 				fileWriter = new FileWriter(s);
             	bufferedWriter = new BufferedWriter(fileWriter);
-                bufferedWriter.write(x + " your proud sugar baby is " + santa.pair.get(x)+ "\n");
+                bufferedWriter.write(x + " your person is " + santa.pair.get(x)+ "\n");
                 bufferedWriter.write("She/He wants "+ santa.wishlists.get(santa.pair.get(x)));
 				bufferedWriter.close();
 			}
