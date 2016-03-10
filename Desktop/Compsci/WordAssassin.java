@@ -24,7 +24,7 @@ public class WordAssassin
 		System.out.println("Please name the group.");
 		System.out.print("$$ ");
 		destinationname= in.nextLine();
-		System.out.println("Please input the name of the participant in this year's Secret Santa!");
+		System.out.println("Please input the name of the participant.");
 		String recentString="";
 		while(recentString.equals("End")==false)
 		{
@@ -99,6 +99,6 @@ public class WordAssassin
         	}
 		}
 
-		System.out.println("Hohoho Merry Christmas.");
+		System.out.println("May the Odds be Ever in Your Favor.");
 	}
 }
