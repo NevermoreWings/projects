@@ -1,0 +1,21 @@
+
+Late: 15 hours
+How much remaining 100-15= 85 hours
+Questions on PA1
+----------------
+
+1. Describe your implementation of the stack machine in a single short
+   paragraph.
+   Using a linked list esque stack, I added things on and popped things off accordingly.
+   Most of the actual linked list modification occurred in the class itself. The main class was just to loop through and access the commands. 
+
+2. List 3 things that you like about the Cool programming language.
+
+   1. The loop structure. I thought it was kinda cool.
+   2. Assignment is using an arrow instead of equal.
+   3. The classes.
+3. List 3 things you DON'T like about Cool.
+   1. Error finding is not clear.
+   2. Too many brackets.
+   3. Access of variables is limited.
+ 
